@@ -24,7 +24,7 @@ private:
 public:
     CaroMath();
     void print();
-    void draw();
+    void init();
     void display();
     void addPlayerAToVector();
     void addPlayerBToVector();
