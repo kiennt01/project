@@ -13,9 +13,9 @@ void CaroMath::print(){
     cout<<"Player 1 <X>"<<"-"<<"Player 2 <0>"<<endl;
 
 }
-void CaroMath::draw(){
-    for(int i=0 ;i<COLUM;i++){
-        for(int j=0;j<ROW;j++)
+void CaroMath::init(){
+    for(int i = 0 ; i < COLUM + 1; i++){
+        for(int j = 0; j < ROW + 1; j++)
         {
             gamePAD[i][j]=' ';
         }
